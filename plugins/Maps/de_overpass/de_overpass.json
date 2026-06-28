@@ -1,0 +1,640 @@
+{
+    "created-at": "31/05/2026",
+    "last-updated": "31/05/2026",
+    "last-updated-by": "james.ide775@gmail.com",
+    "map-config-version": "v0.0.1",
+    "change-log": [
+        {
+            "version": "0.0.1",
+            "date": "31/05/2026",
+            "author": "james.ide775@gmail.com",
+            "description": "Added first permutations to overpass"
+        }
+    ],
+    "rounds": [
+        {
+            "round-identifier": 1,
+            "round-strategy": "A Rush",
+            "smokes": [
+                {
+                    "name": "a-truck",
+                    "origin": "-2309.69, -847.08, 826.97",
+                    "velocity": "130.29, 628.78, 206.64",
+                    "angle": "-52.89, 76.77, -6.15",
+                    "delay": 0
+                },
+                {
+                    "name": "a-bank",
+                    "origin": "-2428.50, -1013.08, 858.43",
+                    "velocity": "-5.64, 585.99, 403.56",
+                    "angle": "-11.21, -91.39, 174.25",
+                    "delay": 0
+                },
+                {
+                    "name": "a-site-prog",
+                    "origin": "-2484.61, -1007.88, 797.47",
+                    "velocity": "-7.14, 522.34, 177.48",
+                    "angle": "12.96, 88.98, -5.11",
+                    "delay": 0
+                }
+            ],
+            "flashes": [],
+            "spawns": {
+                "counter-terrorist": [
+                    {
+                        "spawnId": 1,
+                        "label": "ct-close-bank-1",
+                        "team": "3",
+                        "origin": "-2603.82, 1102.13, 484.03",
+                        "angle": "0.00, -47.04, 0.00"
+                    },
+                    {
+                        "spawnId": 2,
+                        "label": "ct-bank-1",
+                        "team": "3",
+                        "origin": "-2693.48, 1526.80, 409.52",
+                        "angle": "0.00, -56.69, 0.00"
+                    },
+                    {
+                        "spawnId": 3,
+                        "label": "ct-truck-1",
+                        "team": "3",
+                        "origin": "-1924.23, 1034.57, 484.03",
+                        "angle": "0.00, -129.13, 0.00"
+                    },
+                    {
+                        "spawnId": 4,
+                        "label": "ct-truck-2",
+                        "team": "3",
+                        "origin": "-1780.49, 719.63, 484.03",
+                        "angle": "0.00, -151.83, 0.00"
+                    },
+                    {
+                        "spawnId": 5,
+                        "label": "ct-deep-bank-1",
+                        "team": "3",
+                        "origin": "-2584.02, 1637.61, 366.03",
+                        "angle": "0.00, -99.03, 0.00"
+                    }
+                ],
+                "terrorist": [
+                    {
+                        "spawnId": 6,
+                        "label": "party-1",
+                        "team": "2",
+                        "origin": "-2837.13, -1547.50, 440.58",
+                        "angle": "0.00, 68.42, 0.00"
+                    },
+                    {
+                        "spawnId": 7,
+                        "label": "party-2",
+                        "team": "2",
+                        "origin": "-2598.35, -1479.83, 438.25",
+                        "angle": "0.00, 67.51, 0.00"
+                    },
+                    {
+                        "spawnId": 8,
+                        "label": "long-1",
+                        "team": "2",
+                        "origin": "-3847.25, -1062.28, 516.25",
+                        "angle": "0.00, 72.10, 0.00"
+                    },
+                    {
+                        "spawnId": 9,
+                        "label": "party-4",
+                        "team": "2",
+                        "origin": "-2979.32, -1293.78, 525.47",
+                        "angle": "0.00, 41.12, 0.00"
+                    },
+                    {
+                        "spawnId": 10,
+                        "label": "party-5",
+                        "team": "2",
+                        "origin": "-2706.33, -1614.40, 455.97",
+                        "angle": "0.00, 64.16, 0.00"
+                    }
+                ]
+            }
+        },
+        {
+            "round-identifier": 2,
+            "round-strategy": "A Rush",
+            "smokes": [
+                {
+                    "name": "a-truck-wall-1",
+                    "origin": "-2294.34, -497.52, 855.35",
+                    "velocity": "30.63, 289.17, 354.15",
+                    "angle": "-33.50, 81.61, -4.00",
+                    "delay": 0
+                },
+                {
+                    "name": "a-truck-wall-2",
+                    "origin": "-2365.71, -494.14, 756.78",
+                    "velocity": "-71.36, 372.60, 358.30",
+                    "angle": "-1.00, -80.85, 173.30",
+                    "delay": 0
+                },
+                {
+                    "name": "a-truck-wall-3",
+                    "origin": "-2319.02, -510.82, 804.99",
+                    "velocity": "0.63, 317.84, 375.48",
+                    "angle": "81.54, -100.20, 165.73",
+                    "delay": 0
+                }
+            ],
+            "flashes": [],
+            "spawns": {
+                "counter-terrorist": [
+                    {
+                        "spawnId": 11,
+                        "label": "ct-bank-1",
+                        "team": "3",
+                        "origin": "-2693.48, 1526.80, 409.52",
+                        "angle": "0.00, -56.69, 0.00"
+                    },
+                    {
+                        "spawnId": 12,
+                        "label": "ct-truck-2",
+                        "team": "3",
+                        "origin": "-1780.49, 719.63, 484.03",
+                        "angle": "0.00, -151.83, 0.00"
+                    },
+                    {
+                        "spawnId": 13,
+                        "label": "ct-deep-bank-1",
+                        "team": "3",
+                        "origin": "-2584.02, 1637.61, 366.03",
+                        "angle": "0.00, -99.03, 0.00"
+                    },
+                    {
+                        "spawnId": 14,
+                        "label": "ct-close-bank-1",
+                        "team": "3",
+                        "origin": "-2603.82, 1102.13, 484.03",
+                        "angle": "0.00, -47.04, 0.00"
+                    },
+                    {
+                        "spawnId": 15,
+                        "label": "ct-truck-side-bathroom",
+                        "team": "3",
+                        "origin": "-2177.85, 438.07, 484.03",
+                        "angle": "0.00, 164.77, 0.00"
+                    }
+                ],
+                "terrorist": [
+                    {
+                        "spawnId": 16,
+                        "label": "party-1",
+                        "team": "2",
+                        "origin": "-2837.13, -1547.50, 440.58",
+                        "angle": "0.00, 68.42, 0.00"
+                    },
+                    {
+                        "spawnId": 17,
+                        "label": "party-2",
+                        "team": "2",
+                        "origin": "-2598.35, -1479.83, 438.25",
+                        "angle": "0.00, 67.51, 0.00"
+                    },
+                    {
+                        "spawnId": 18,
+                        "label": "long-1",
+                        "team": "2",
+                        "origin": "-3847.25, -1062.28, 516.25",
+                        "angle": "0.00, 72.10, 0.00"
+                    },
+                    {
+                        "spawnId": 19,
+                        "label": "party-4",
+                        "team": "2",
+                        "origin": "-2979.32, -1293.78, 525.47",
+                        "angle": "0.00, 41.12, 0.00"
+                    },
+                    {
+                        "spawnId": 20,
+                        "label": "party-5",
+                        "team": "2",
+                        "origin": "-2706.33, -1614.40, 455.97",
+                        "angle": "0.00, 64.16, 0.00"
+                    }
+                ]
+            }
+        },
+        {
+            "round-identifier": 3,
+            "round-strategy": "A Split",
+            "smokes": [
+                {
+                    "name": "a-truck-wall-2",
+                    "origin": "-2365.71, -494.14, 756.78",
+                    "velocity": "-71.36, 372.60, 358.30",
+                    "angle": "-1.00, -80.85, 173.30",
+                    "delay": 0
+                },
+                {
+                    "name": "a-truck",
+                    "origin": "-2309.69, -847.08, 826.97",
+                    "velocity": "130.29, 628.78, 206.64",
+                    "angle": "-52.89, 76.77, -6.15",
+                    "delay": 0
+                }
+            ],
+            "flashes": [],
+            "spawns": {
+                "counter-terrorist": [
+                    {
+                        "spawnId": 21,
+                        "label": "ct-truck-side-bathroom",
+                        "team": "3",
+                        "origin": "-2177.85, 438.07, 484.03",
+                        "angle": "0.00, 164.77, 0.00"
+                    },
+                    {
+                        "spawnId": 22,
+                        "label": "ct-bank-1",
+                        "team": "3",
+                        "origin": "-2693.48, 1526.80, 409.52",
+                        "angle": "0.00, -56.69, 0.00"
+                    },
+                    {
+                        "spawnId": 23,
+                        "label": "ct-deep-truck-1",
+                        "team": "3",
+                        "origin": "-1890.65, 1296.21, 356.03",
+                        "angle": "0.00, -111.57, 0.00"
+                    },
+                    {
+                        "spawnId": 24,
+                        "label": "ct-close-bank-1",
+                        "team": "3",
+                        "origin": "-2603.82, 1102.13, 484.03",
+                        "angle": "0.00, -47.04, 0.00"
+                    },
+                    {
+                        "spawnId": 25,
+                        "label": "ct-truck-1",
+                        "team": "3",
+                        "origin": "-1924.23, 1034.57, 484.03",
+                        "angle": "0.00, -129.13, 0.00"
+                    }
+                ],
+                "terrorist": [
+                    {
+                        "spawnId": 26,
+                        "label": "long-1",
+                        "team": "2",
+                        "origin": "-3847.25, -1062.28, 516.25",
+                        "angle": "0.00, 72.10, 0.00"
+                    },
+                    {
+                        "spawnId": 27,
+                        "label": "long-2",
+                        "team": "2",
+                        "origin": "-3576.75, -1055.44, 490.29",
+                        "angle": "0.00, 84.88, 0.00"
+                    },
+                    {
+                        "spawnId": 28,
+                        "label": "long-3",
+                        "team": "2",
+                        "origin": "-3396.51, -917.45, 492.03",
+                        "angle": "0.00, 119.10, 0.00"
+                    },
+                    {
+                        "spawnId": 29,
+                        "label": "party-2",
+                        "team": "2",
+                        "origin": "-2598.35, -1479.83, 438.25",
+                        "angle": "0.00, 67.51, 0.00"
+                    },
+                    {
+                        "spawnId": 30,
+                        "label": "party-3",
+                        "team": "2",
+                        "origin": "-2961.11, -1451.91, 525.97",
+                        "angle": "0.00, 56.95, 0.00"
+                    },
+                    {
+                        "spawnId": 31,
+                        "label": "party-4",
+                        "team": "2",
+                        "origin": "-2979.32, -1293.78, 525.47",
+                        "angle": "0.00, 41.12, 0.00"
+                    }
+                ]
+            }
+        },
+        {
+            "round-identifier": 4,
+            "round-strategy": "B Rush",
+            "smokes": [
+                {
+                    "name": "b-abc",
+                    "origin": "-1731.24, -455.12, 293.43",
+                    "velocity": "1.23, 438.44, 120.01",
+                    "angle": "-3.88, 89.13, -7.60",
+                    "delay": 0
+                },
+                {
+                    "name": "b-heaven",
+                    "origin": "-1732.18, -140.05, 329.23",
+                    "velocity": "-0.28, 674.46, 40.67",
+                    "angle": "16.62, 87.99, -6.50",
+                    "delay": 0
+                }
+            ],
+            "flashes": [],
+            "spawns": {
+                "counter-terrorist": [
+                    {
+                        "spawnId": 32,
+                        "label": "heaven-1",
+                        "team": "3",
+                        "origin": "-1975.76, 626.57, 260.03",
+                        "angle": "0.00, -28.51, 0.00"
+                    },
+                    {
+                        "spawnId": 33,
+                        "label": "abc-1",
+                        "team": "3",
+                        "origin": "-1962.03, -318.42, 132.03",
+                        "angle": "0.00, 4.07, 0.00"
+                    },
+                    {
+                        "spawnId": 34,
+                        "label": "b-water-1",
+                        "team": "3",
+                        "origin": "-1475.08, 427.56, 18.18",
+                        "angle": "0.00, -25.96, 0.00"
+                    },
+                    {
+                        "spawnId": 35,
+                        "label": "b-water-2",
+                        "team": "3",
+                        "origin": "-1568.21, 139.49, 88.99",
+                        "angle": "0.00, -20.67, 0.00"
+                    },
+                    {
+                        "spawnId": 36,
+                        "label": "close-barrels-1",
+                        "team": "3",
+                        "origin": "-1181.96, 486.39, 53.47",
+                        "angle": "0.00, -79.66, 0.00"
+                    },
+                    {
+                        "spawnId": 37,
+                        "label": "mid-site-1",
+                        "team": "3",
+                        "origin": "-1239.94, 107.22, 103.53",
+                        "angle": "0.00, -41.16, 0.00"
+                    }
+                ],
+                "terrorist": [
+                    {
+                        "spawnId": 38,
+                        "label": "deep-short-1",
+                        "team": "2",
+                        "origin": "-706.84, -977.94, 23.01",
+                        "angle": "0.00, 170.52, 0.00"
+                    },
+                    {
+                        "spawnId": 39,
+                        "label": "deep-short-2",
+                        "team": "2",
+                        "origin": "-785.55, -977.86, 23.56",
+                        "angle": "0.00, 168.28, 0.00"
+                    },
+                    {
+                        "spawnId": 40,
+                        "label": "outside-monster-1",
+                        "team": "2",
+                        "origin": "-289.13, -1180.08, 67.49",
+                        "angle": "0.00, 108.60, 0.00"
+                    },
+                    {
+                        "spawnId": 41,
+                        "label": "outside-monster-2",
+                        "team": "2",
+                        "origin": "-668.10, -1446.73, 149.03",
+                        "angle": "0.00, 80.02, 0.00"
+                    },
+                    {
+                        "spawnId": 42,
+                        "label": "outside-monster-3",
+                        "team": "2",
+                        "origin": "-146.12, -1185.44, 48.06",
+                        "angle": "0.00, 121.74, 0.00"
+                    }
+                ]
+            }
+        },
+        {
+            "round-identifier": 5,
+            "round-strategy": "B Rush",
+            "smokes": [
+                {
+                    "name": "b-short-bridge",
+                    "origin": "-713.71, -1296.77, 499.11",
+                    "velocity": "-155.66, 351.51, 364.83",
+                    "angle": "-40.04, -67.30, 173.14",
+                    "delay": 0
+                },
+                {
+                    "name": "b-mid-site",
+                    "origin": "-746.14, -1169.52, 564.94",
+                    "velocity": "-158.85, 420.11, 258.89",
+                    "angle": "21.09, 109.23, -4.73",
+                    "delay": 0
+                },
+                {
+                    "name": "b-heaven",
+                    "origin": "-1732.18, -140.05, 329.23",
+                    "velocity": "-0.28, 674.46, 40.67",
+                    "angle": "16.62, 87.99, -6.50",
+                    "delay": 0
+                }
+            ],
+            "flashes": [],
+            "spawns": {
+                "counter-terrorist": [
+                    {
+                        "spawnId": 43,
+                        "label": "heaven-1",
+                        "team": "3",
+                        "origin": "-1975.76, 626.57, 260.03",
+                        "angle": "0.00, -28.51, 0.00"
+                    },
+                    {
+                        "spawnId": 44,
+                        "label": "abc-1",
+                        "team": "3",
+                        "origin": "-1962.03, -318.42, 132.03",
+                        "angle": "0.00, 4.07, 0.00"
+                    },
+                    {
+                        "spawnId": 45,
+                        "label": "b-water-1",
+                        "team": "3",
+                        "origin": "-1475.08, 427.56, 18.18",
+                        "angle": "0.00, -25.96, 0.00"
+                    },
+                    {
+                        "spawnId": 46,
+                        "label": "close-barrels-1",
+                        "team": "3",
+                        "origin": "-1181.96, 486.39, 53.47",
+                        "angle": "0.00, -79.66, 0.00"
+                    },
+                    {
+                        "spawnId": 47,
+                        "label": "mid-site-1",
+                        "team": "3",
+                        "origin": "-1239.94, 107.22, 103.53",
+                        "angle": "0.00, -41.16, 0.00"
+                    }
+                ],
+                "terrorist": [
+                    {
+                        "spawnId": 48,
+                        "label": "con-1",
+                        "team": "2",
+                        "origin": "-1788.68, -1467.84, 100.03",
+                        "angle": "0.00, 83.18, 0.00"
+                    },
+                    {
+                        "spawnId": 49,
+                        "label": "deep-short-1",
+                        "team": "2",
+                        "origin": "-706.84, -977.94, 23.01",
+                        "angle": "0.00, 170.52, 0.00"
+                    },
+                    {
+                        "spawnId": 50,
+                        "label": "outside-monster-1",
+                        "team": "2",
+                        "origin": "-289.13, -1180.08, 67.49",
+                        "angle": "0.00, 108.60, 0.00"
+                    },
+                    {
+                        "spawnId": 51,
+                        "label": "outside-monster-2",
+                        "team": "2",
+                        "origin": "-668.10, -1446.73, 149.03",
+                        "angle": "0.00, 80.02, 0.00"
+                    },
+                    {
+                        "spawnId": 52,
+                        "label": "outside-monster-3",
+                        "team": "2",
+                        "origin": "-146.12, -1185.44, 48.06",
+                        "angle": "0.00, 121.74, 0.00"
+                    }
+                ]
+            }
+        },
+        {
+            "round-identifier": 6,
+            "round-strategy": "B Split",
+            "smokes": [
+                {
+                    "name": "b-short-bridge",
+                    "origin": "-713.71, -1296.77, 499.11",
+                    "velocity": "-155.66, 351.51, 364.83",
+                    "angle": "-40.04, -67.30, 173.14",
+                    "delay": 0
+                },
+                {
+                    "name": "b-heaven",
+                    "origin": "-1732.18, -140.05, 329.23",
+                    "velocity": "-0.28, 674.46, 40.67",
+                    "angle": "16.62, 87.99, -6.50",
+                    "delay": 0
+                }
+            ],
+            "flashes": [],
+            "spawns": {
+                "counter-terrorist": [
+                    {
+                        "spawnId": 53,
+                        "label": "heaven-1",
+                        "team": "3",
+                        "origin": "-1975.76, 626.57, 260.03",
+                        "angle": "0.00, -28.51, 0.00"
+                    },
+                    {
+                        "spawnId": 54,
+                        "label": "abc-1",
+                        "team": "3",
+                        "origin": "-1962.03, -318.42, 132.03",
+                        "angle": "0.00, 4.07, 0.00"
+                    },
+                    {
+                        "spawnId": 55,
+                        "label": "b-water-1",
+                        "team": "3",
+                        "origin": "-1475.08, 427.56, 18.18",
+                        "angle": "0.00, -25.96, 0.00"
+                    },
+                    {
+                        "spawnId": 56,
+                        "label": "b-water-2",
+                        "team": "3",
+                        "origin": "-1568.21, 139.49, 88.99",
+                        "angle": "0.00, -20.67, 0.00"
+                    },
+                    {
+                        "spawnId": 57,
+                        "label": "close-barrels-1",
+                        "team": "3",
+                        "origin": "-1181.96, 486.39, 53.47",
+                        "angle": "0.00, -79.66, 0.00"
+                    },
+                    {
+                        "spawnId": 58,
+                        "label": "mid-site-1",
+                        "team": "3",
+                        "origin": "-1239.94, 107.22, 103.53",
+                        "angle": "0.00, -41.16, 0.00"
+                    }
+                ],
+                "terrorist": [
+                    {
+                        "spawnId": 59,
+                        "label": "con-1",
+                        "team": "2",
+                        "origin": "-1788.68, -1467.84, 100.03",
+                        "angle": "0.00, 83.18, 0.00"
+                    },
+                    {
+                        "spawnId": 60,
+                        "label": "con-2",
+                        "team": "2",
+                        "origin": "-1800.49, -1634.99, 100.03",
+                        "angle": "0.00, 83.68, 0.00"
+                    },
+                    {
+                        "spawnId": 61,
+                        "label": "deep-short-1",
+                        "team": "2",
+                        "origin": "-706.84, -977.94, 23.01",
+                        "angle": "0.00, 170.52, 0.00"
+                    },
+                    {
+                        "spawnId": 62,
+                        "label": "outside-monster-1",
+                        "team": "2",
+                        "origin": "-289.13, -1180.08, 67.49",
+                        "angle": "0.00, 108.60, 0.00"
+                    },
+                    {
+                        "spawnId": 63,
+                        "label": "outside-monster-2",
+                        "team": "2",
+                        "origin": "-668.10, -1446.73, 149.03",
+                        "angle": "0.00, 80.02, 0.00"
+                    }
+                ]
+            }
+        }
+    ]
+}
