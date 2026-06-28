@@ -11,18 +11,14 @@ In Retake Executes, the T-side follows pre-scripted site entries (executes) with
 Essentially its the flip side of Retakes, with a heavy emphasis on T's executing onto sites. Think execute types that exist in a normal game - apps rush, b rush or mid-to-b. Its essentially short-form matchmaking. 
 
 ## Features and Capabilities 
-- Pre-programmed smokes, flashes and spawns
-- Randomised round-types (full buy, force buy, pistol rounds) with different weightings to ensure randomness and unpredictability
-- Weapon allocation system
-- Kick / ban management system
-- AFK service
-- Player skins (!ws) integration
-- Map voting service (!rtv)
-- Team management service - team assigning, balancing, managing spectators
-- Database integration to store weapon preferences, skins and audit logs (connects, disconnects, round winning information)
-- Admin only commands (adjusted in ```plugins/core/Constants/Constants.cs```)
-- Practice only commands
-- All active duty maps with a couple other community maps (Train and Cache)
+- Pre-programmed smokes, flashes, and spawns per round
+- Randomised round types (full buy, force buy, pistol) with different weightings
+- Weapon allocation and skin integration (!ws)
+- Kick/ban management, AFK service, map voting (!rtv)
+- Team management (balancing, spectators)
+- Database integration (MySQL via Dapper) for storing weapon preferences, skins, and audit logs
+- All active duty maps plus Train and Cache
+- A companion website at macroscs2.com for skin/weapon preference changing
 
 ## How to deploy
 - You'll need a CS2 server with FTP capability. Most CS2 server providers offer this, as well as a database that come part of it. Currently mine is hosted on a [Streamline Server](https://streamline-servers.com/game-servers).
