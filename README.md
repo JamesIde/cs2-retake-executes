@@ -2,8 +2,9 @@
 
 CS2 implementation of Retake Executes written in [CounterStrikeSharp](https://docs.cssharp.dev/docs/guides/getting-started.html). 
 
-Live @ **103.62.51.209:27058** via the CS2 Server Browser 
-Skin and weapon preference changer live @ **[www.macroscs2.com](www.macroscs2.com)**
+Inspired heavily by this [Retake implementation](https://github.com/B3none/cs2-retakes) and by KZG's original Retake Executes implementation done in CSGO (and was never re-written for CS2).
+
+Live @ **103.62.51.209:27058** via the CS2 Server Browser.
 
 ## What is Retake Executes?
 In Retake Executes, the T-side follows pre-scripted site entries (executes) with pre-programmed utility, spawns and round-types. The CT's have to defend the site. 
