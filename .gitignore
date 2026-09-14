@@ -2,5 +2,4 @@
 **/obj/
 
 deploy.config.json
-cs2-server.sln
 scripts/tools/rcon.exe

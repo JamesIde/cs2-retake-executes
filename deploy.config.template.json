@@ -1,9 +1,10 @@
 {
-    "VmIp": "",
-    "VmUser": "",
-    "Cs2User": "",
-    "SshKey": "",
+    "ServerIp": "",
+    "ServerPort": 1137,
+    "SftpUser": "",
+    "SftpPassword": "",
     "PluginsBasePath": "",
     "RemotePluginsPath": "",
-    "MapConfigPath": ""
+    "RconPort": 1137,
+    "RconPassword": ""
 }
